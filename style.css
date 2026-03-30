@@ -1,0 +1,254 @@
+.myBanner{
+    width:auto;
+    height:200px;
+    background-color: grey;
+    border-color: black;
+    box-sizing: border-box;
+    text-align: center;
+    border-color: whitesmoke;
+    border-style: 2px solid;
+    margin:0% auto auto auto;
+    z-index: 3;
+
+}
+
+.carousel-item{
+
+  height: 550px;
+  background-color:sandybrown;
+  border:2px solid black;
+  box-sizing: border-box;
+}
+
+.img-box{
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  
+  border: 2px solid rgb(231, 15, 181);
+  display: block;
+}
+
+.img1 { top: 30px; left: 600px; }
+.img2 { top: 30px; right: 100px; }
+.img3 { top: 30px; left:100px; }
+.img4 { bottom: 30px; left: 600px; }
+.img5 { bottom: 30px; right: 100px; }
+.img6 { bottom: 30px; left:100px; }
+
+
+.head{
+    margin-top: 10px;
+    position: static;
+}
+
+footer{
+	color: gray;
+	
+	
+}
+
+footer #end{
+	text-align: center;
+
+}
+
+
+
+
+#flexOutput
+{
+	padding:10px;
+}
+
+#flexContainer
+{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to right bottom,rgb(241, 51, 171),pink);
+	border: 2px solid red;
+	border-radius: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	z-index: 2000;
+  
+  right:10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#flexContainer H2
+{
+	align-self:flex-start;
+	color: bisque;
+  text-align: center;
+  text-decoration: dotted;
+	margin:0px;
+	padding:0px;
+	width:320px;
+	
+}
+
+#flexContainer div
+{
+	width:350px;
+	border:2px solid black;
+	border-radius:3%;
+	background-image:linear-gradient(to right bottom,aqua,lightgreen);
+	height:300px;
+	padding:10px;
+	box-sizing:border-box;
+	margin:0px;
+	
+}
+
+#flexContainer hr
+{
+	margin:0px;
+	padding:0px;
+}
+
+#flexContainer button
+{
+	float:right;
+	margin:auto 5px auto auto;
+	
+}
+
+#flexContainer #buttons
+{
+	padding:0px;
+
+	height:auto;
+	
+}
+
+#cartItems
+{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	overflow-y: auto;
+	max-height: 300px;
+  
+}
+
+
+#buttons
+{
+	margin-top: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+#cartItems div
+{
+    border-radius:10px;
+    padding:10px;
+}
+
+#billBox
+{
+position:fixed;
+top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+
+background:blueviolet;
+color:white;
+
+padding:20px;
+border-radius:10px;
+
+width:600px;
+max-height:500px;   /* limit height */
+
+overflow-y:auto;    /* enable vertical scroll */
+
+z-index:5000;
+}
+#billBox table
+{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+overflow-y: auto;
+
+}
+
+#billBox th,#billBox td
+{
+border:1px solid white;
+padding:8px;
+overflow-y: auto;
+}
+
+#billBox button
+{
+margin:10px;
+padding:8px 15px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+overflow-y: auto;
+}
+
+.myRow span
+{
+float:left;
+color:aqua;
+margin:8px auto auto 10px;
+font-weight:bold;
+
+}
+
+.myRow button
+{
+float:right;
+margin:5px 10px 10px auto;
+border-radius:20px;
+margin: 10px;
+}
+
+
+ #bankInfo
+{
+    height:215px;
+    display:none;
+	background-color: purple;
+    padding:0px;
+    border:1px solid black;
+    border-radius:3%;
+    margin:auto;
+    width:530px;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid black;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+#bankInfo{
+margin-top:15px;
+}
+

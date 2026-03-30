@@ -1,0 +1,202 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":1,
+             "product_name":"dragon",
+             "imgSrc":"image/TOY1.jpg",
+             "price":300
+             },
+             {
+             "product_id":2,
+             "product_name":"Car",
+             "imgSrc":"image/TOYS2.jpg",
+             "price":1000
+             },
+             {
+             "product_id":3,
+             "product_name":"spider man",
+             "imgSrc":"image/toy5.jpg",
+             "price":600
+             },
+             {
+             "product_id":4,
+             "product_name":"Drift car",
+             "imgSrc":"image/TOY3.jpg",
+             "price":1500
+             },
+             {
+             "product_id":5,
+             "product_name":"Car",
+             "imgSrc":"image/TOY44.jpg",
+             "price":900
+             },
+             {
+             "product_id":6,
+             "product_name":"Dodge challenger car",
+             "imgSrc":"image/TOY6.jpg",
+             "price":1500
+             }]
+ },
+
+ {
+"filter_id":2,
+"products":[{
+             "product_id":11,
+             "product_name":"purse",
+             "imgSrc":"image/mens 1.jpg ",
+             "price":200
+             },
+             {
+             "product_id":12,
+             "product_name":"Watch",
+             "imgSrc":"image/mens 2.jpg",
+             "price":1500
+             },
+             {
+             "product_id":13,
+             "product_name":"Glass",
+             "imgSrc":"image/mens 5.jpg",
+             "price":300
+             },
+             {
+             "product_id":14,
+             "product_name":"Belt",
+             "imgSrc":"image/mens 3.jpg",
+             "price":150
+             },
+             {
+             "product_id":15,
+             "product_name":"jain",
+             "imgSrc":"image/mens 4.jpg",
+             "price":180
+             },
+             {
+             "product_id":16,
+            "product_name":"kerchief",
+             "imgSrc":"image/mens6.jpg",
+             "price":699
+             }]
+ },
+ 
+ {
+"filter_id":3,
+"products":[{
+             "product_id":21,
+             "product_name":"Gold perfume",
+             "imgSrc":"image/perfume 1.jpg ",
+             "price":599
+             },
+             {
+             "product_id":22,
+             "product_name":"Calvin klein ck one",
+             "imgSrc":"image/perfume 2.jpg",
+             "price":6999
+             },
+             {
+             "product_id":23,
+             "product_name":"Black sand",
+             "imgSrc":"image/perfume5.jpg",
+             "price":2999
+             },
+             {
+             "product_id":24,
+             "product_name":"Engage indigo",
+             "imgSrc":"image/perfume 3.jpg",
+             "price":3500
+             },
+             {
+             "product_id":25,
+             "product_name":"Amber",
+             "imgSrc":"image/perfume4.jpg",
+             "price":2000
+             },
+             {
+             "product_id":26,
+             "product_name":"Blue",
+             "imgSrc":"image/perfume6.jpg",
+             "price":1999
+             }]
+ },
+ 
+ {
+"filter_id":4,
+"products":[{
+             "product_id":1,
+             "product_name":"Tripod",
+             "imgSrc":"image/electronics1.jpg",
+             "price":2000
+             },
+             {
+             "product_id":2,
+             "product_name":"Headphones",
+             "imgSrc":"image/electronicsimage 2.jpg",
+             "price":1800
+             },
+             {
+             "product_id":3,
+             "product_name":"Airpods",
+             "imgSrc":"image/electronics 3.jpg",
+             "price":2000
+             },
+             {
+             "product_id":4,
+             "product_name":"Powerbank",
+             "imgSrc":"image/electronics 4.jpg",
+             "price":1500
+             },
+             {
+             "product_id":5,
+             "product_name":"JBL headset",
+             "imgSrc":"image/electronics 5.jpg",
+             "price":1800
+             },
+             {
+             "product_id":6,
+             "product_name":"Iphone",
+             "imgSrc":"image/electronics 6.jpg",
+             "price":80000
+             }]
+ },
+ 
+ {
+"filter_id":5,
+"products":[{
+             "product_id":1,
+             "product_name":"Car tyre",
+             "imgSrc":"image/auto 1.jpg ",
+             "price":2000
+             },
+             {
+             "product_id":2,
+             "product_name":"Charger",
+             "imgSrc":"image/auto2.jpg",
+             "price":1700
+             },
+             {
+             "product_id":3,
+             "product_name":"Steering wheel ",
+             "imgSrc":"image/auto3.jpg",
+             "price":3000
+             },
+             {
+             "product_id":4,
+             "product_name":"Speaker",
+             "imgSrc":"image/auto6.jpg",
+             "price":6000
+             },
+             {
+             "product_id":5,
+             "product_name":"Car seats",
+             "imgSrc":"image/auto4.jpg",
+             "price":5000
+             },
+             {
+             "product_id":6,
+             "product_name":"Luxury steering",
+             "imgSrc":"image/auto7.jpg",
+             "price":15000
+             }]
+ }
+]
+ 

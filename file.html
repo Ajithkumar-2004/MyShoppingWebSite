@@ -1,0 +1,193 @@
+
+
+<html>
+
+<head>
+<title>SHOPPING</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+<div class="myBanner">
+<h1>Accessorize Your Life </h1>
+<h2>Stylish Finds at Your Fingertips</h2></div>
+<div id="products"></div>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+
+<div class="container">
+
+<a class="navbar-brand">SHOPPING PRODUCTS</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="searchbar">  <input placeholder="search"></div>
+
+<div class="collapse navbar-collapse justify-content-center" id="menu">
+
+<ul class="navbar-nav">
+
+<li class="nav-item me-3">
+<button class="btn btn-outline-light" onclick="displayItems(1)">KIDS TOYS</button>
+</li>
+
+<li class="nav-item dropdown me-3">
+<button class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">
+FASHION
+</button>
+
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" onclick="displayItems(2)">MEN'S ACCESSORIES</a></li>
+<li><a class="dropdown-item" onclick="displayItems(3)">PERFUMES</a></li>
+</ul>
+
+</li>
+
+<li class="nav-item me-3">
+<button class="btn btn-outline-light" onclick="displayItems(4)">ELECTRONICS </button>
+</li>
+
+<li class="nav-item">
+<button class="btn btn-outline-light" onclick="displayItems(5)">AUTO ACCESSORIES</button>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="myRow">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+</div>
+
+  <div class="carousel-inner">
+
+
+    <div class="carousel-item active">
+      <div class="slide-box">
+        <img src="image/TOY1.jpg"  class="img-box img1">
+        <img src="image/TOYS2.jpg" class="img-box img2">
+        <img src="image/toy5.jpg"  class="img-box img3">
+        <img src="image/TOY3.jpg"  class="img-box img4">
+        <img src="image/TOY44.jpg" class="img-box img5">
+        <img src="image/TOY6.jpg"  class="img-box img6">
+      </div>
+
+      <div class="carousel-caption">
+    <h3  style="color:yellow;">KIDS TOYS</h3>
+    
+  </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="slide-box">
+        <img src="image/mens 1.jpg" class="img-box img1">
+        <img src="image/mens 2.jpg" class="img-box img2">
+        <img src="image/mens 5.jpg" class="img-box img3">
+        <img src="image/mens 3.jpg" class="img-box img4">
+        <img src="image/mens 4.jpg" class="img-box img5">
+        <img src="image/mens6.jpg"  class="img-box img6">
+      </div>
+      
+      <div class="carousel-caption">
+    <h3  style="color: yellow;">MENS  ACCESSORIES</h3>
+   
+  </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="slide-box">
+        <img src="image/perfume 1.jpg" class="img-box img1">
+        <img src="image/perfume5.jpg"  class="img-box img2">
+        <img src="image/perfume5.jpg"  class="img-box img3">
+        <img src="image/perfume 3.jpg" class="img-box img4">
+        <img src="image/perfume4.jpg"  class="img-box img5">
+        <img src="image/perfume6.jpg"  class="img-box img6">
+      </div>
+
+      <div class="carousel-caption">
+    <h3 style="color: yellow;">PERFUMES</h3>
+    
+  </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="slide-box">
+        <img src="image/electronics1.jpg"       class="img-box img1">
+        <img src="image/electronicsimage 2.jpg" class="img-box img2">
+        <img src="image/electronics 3.jpg"      class="img-box img3">
+        <img src="image/electronics 4.jpg"      class="img-box img4">
+        <img src="image/electronics 5.jpg"      class="img-box img5">
+        <img src="image/electronics 6.jpg"      class="img-box img6">
+      </div>
+
+      <div class="carousel-caption">
+    <h3  style="color: yellow;" >ELECTRONICS </h3>
+    
+  </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="slide-box">
+        <img src="image/auto 1.jpg" class="img-box img1">
+        <img src="image/auto2.jpg"  class="img-box img2">
+        <img src="image/auto3.jpg"  class="img-box img3">
+        <img src="image/auto6.jpg"  class="img-box img4">
+        <img src="image/auto4.jpg"  class="img-box img5">
+        <img src="image/auto7.jpg"  class="img-box img6">
+      </div>
+
+      <div class="carousel-caption">
+    <h3  style="color: yellow;" >AUTO ACCESSORIES</h3>
+    
+  </div>
+    </div>
+
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+
+</div>
+</div>
+
+<footer><h5 id="end">THANKYOU VISIT MY WEBPAGE</h5>
+<h6>Ajithkumar004@gmail.com | +91 8347950633</h6></footer>
+
+<div id="flexOutput"></div>
+<div id="finalBill"></div>
+<div id="bankInfo"></div>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
